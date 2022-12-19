@@ -11,6 +11,13 @@ $ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
 $ pip install ftfy regex tqdm
 $ pip install git+https://github.com/openai/CLIP.git
 ```
+### Download Pretrained Weight
+```bash
+$ cd LISA
+$ mkdir weights
+```
+Download Link : [AudioEncoder](https://drive.google.com/file/d/14JDadJLdQ3vBGLKraW-nfyIlb1-rqoJ2/view?usp=sharing), [CLIPSeg](https://drive.google.com/file/d/1N0q5czPMf1VS_CJdSFdZowhSkNNwY9KR/view?usp=sharing)  
+Place downloaded weights under "./weights" folder.
 ## Training Stylization
 ### Localizing with text condition
 #### Stylizing with audio

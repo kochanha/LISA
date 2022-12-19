@@ -311,7 +311,7 @@ for epoch in pbar:
         idx = np.random.randint(0, len(coordinates[0]))
         randnum = random.randint(64,256)
         y_position, x_position = coordinates[2][idx], coordinates[3][idx]
-        target_crop = transforms.functional.crop(out_img*mask, y_position-randnum, x_position-randnum, randnum, randnum)
+        target_crop = transforms.functional.crop(out_img*mask, y_position-int(randnum/2), x_position-int(randnum/2), randnum, randnum)
         target_crop = augment(target_crop)
         img_proc.append(target_crop)
 

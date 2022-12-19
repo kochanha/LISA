@@ -1,4 +1,5 @@
-# LISA
+# LISA: Localized Image Stylization with Audio via Implicit Neural Representation
+PDF: [arXiv](https://arxiv.org/pdf/2211.11381.pdf)
 ![lisa_main](https://user-images.githubusercontent.com/44921488/208412208-1a0dc030-91de-4bca-8ac8-14add13bc4e0.png)
 ## Getting Started
 ### Installation
@@ -11,11 +12,12 @@ $ pip install ftfy regex tqdm
 $ pip install git+https://github.com/openai/CLIP.git
 ```
 ## Training Stylization
-### Localizing with text, stylizing with audio
+### Localizing with text condition
+#### Stylizing with audio
 ```bash
 $ python train_text_audio.py --content_path "./test_set/chicago.jpg" --content_name "buildings" --audio_path "./audiosample/fire.wav"
 ```
-### Localizing with text, stylizing with text
+#### Stylizing with text
 ```bash
 $ python train_text_text.py --content_path "./test_set/church.jpeg" --content_name "church" --text "wood"
 ```

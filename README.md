@@ -14,3 +14,7 @@ $ pip install git+https://github.com/openai/CLIP.git
 ```bash
 $ python train_text_audio.py --content_path "./test_set/chicago.jpg" --content_name "buildings" --audio_path "./audiosample/fire.wav"
 ```
+### Localizing with text, stylizing with text
+```bash
+$ python train_text_text.py --content_path "./test_set/church.jpeg" --content_name "church" --text "wood"
+```

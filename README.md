@@ -1,4 +1,5 @@
 # LISA
+![lisa_main](https://user-images.githubusercontent.com/44921488/208412208-1a0dc030-91de-4bca-8ac8-14add13bc4e0.png)
 ## Getting Started
 ### Installation
 - Follow the steps below:

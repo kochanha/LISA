@@ -48,6 +48,8 @@ $ python train_text_text.py --content_path "./test_set/church.jpeg" --content_na
 
 ## Results
 ### Sound Source Localization
+Trained with full VGG-sound dataset and tested with Flickr SoundNet testset.  
+
 |Method|CIoU|AUC|
 |---|---|---|
 |LVS (CVPR2021)|73.59%|59.00%|

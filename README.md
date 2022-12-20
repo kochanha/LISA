@@ -50,8 +50,8 @@ $ python train_text_text.py --content_path "./test_set/church.jpeg" --content_na
 ### Sound Source Localization
 |Method|CIoU|AUC|
 |---|---|---|
-|LVS|73.59%|59.00%|
-|EZ-VSL|83.94%|63.60%|
+|LVS (CVPR2021)|73.59%|59.00%|
+|EZ-VSL (ECCV2022)|83.94%|63.60%|
 |Ours|**85.94%**|**66.70%**|
 ### Localized Stylization Result
 ![image](https://user-images.githubusercontent.com/44921488/208580509-a8deaf13-83db-4fec-9fc4-b50fd8ce95ca.png)

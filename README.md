@@ -57,3 +57,14 @@ Trained with full VGG-sound dataset and tested with Flickr SoundNet testset.
 |Ours|**85.94%**|**66.70%**|
 ### Localized Stylization Result
 ![image](https://user-images.githubusercontent.com/44921488/208580509-a8deaf13-83db-4fec-9fc4-b50fd8ce95ca.png)
+
+## Citations
+
+```bibtex
+@article{lee2022lisa,
+  title={LISA: Localized Image Stylization with Audio via Implicit Neural Representation},
+  author={Lee, Seung Hyun and Kim, Chanyoung and Byeon, Wonmin and Yoon, Sang Ho and Kim, Jinkyu and Kim, Sangpil},
+  journal={arXiv preprint arXiv:2211.11381},
+  year={2022}
+}
+```
